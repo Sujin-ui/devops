@@ -53,8 +53,9 @@
 git switch -c (브랜치 이름) #브랜치 생성 및 변경```
 #### Pull requests 
 ```gh pr create --title "내용" \ --body "내용" #Pr 생성 
-git pr merge --squash --delete-branch #main에 합치며 삭제```
+git pr merge --squash --delete-branch #main에 합치며 삭제
  
+```
 
 ## 네트워크 
 - 127.0.0.1 => localhost 
