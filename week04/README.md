@@ -67,8 +67,10 @@ git pr merge --squash --delete-branch #main에 합치며 삭제```
 	- 3306 : MySQL
 	- 6379 : Redis
 	- 8080 : 개발용 웹서버 
+
 - DNS  : 도메인 이름을 IP주소로 변환 
-- ip addr(IP), ping(응답 확인), dig(DNS),curl(HTTP),ss(LISTEN 포트)
+
+	- ip addr(IP), ping(응답 확인), dig(DNS),curl(HTTP),ss(LISTEN 포트)
 
 - 서버는 특정 초트에 요청을 기다리며 이미 사용중인 포트 재사용시 충돌 발생 우려 
 
