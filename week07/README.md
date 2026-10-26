@@ -1,9 +1,11 @@
 # 7주차
 ## 과제
 - docker compose ps 결과 (healthy 포함)
-![docker compose ps 결과](docker_compose_ps_result.png)
+
+![docker compose ps 결과](./docker_compose_ps_result.png)
 
 - scale 후 각 웹 컨테이너 호스트명(컨테이너 ID)바뀐 결과
+
 ![web=3 스케일링 브라우저 화면](host_change_1.png)
 ![web=3 스케일링 브라우저 화면](host_change_2.png)
 
