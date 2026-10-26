@@ -2,7 +2,7 @@
 ## 과제
 ### docker compose ps 결과 (healthy 포함)
 
-![docker compose ps 결과](./docker_compose_ps_result.png)
+![docker compose ps 결과](compose_ps_result.png)
 
 ### scale 후 각 웹 컨테이너 호스트명(컨테이너 ID)바뀐 결과
 
