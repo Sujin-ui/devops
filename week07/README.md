@@ -1,11 +1,11 @@
 # 7주차
 ## 과제
 - docker compose ps 결과 (healthy 포함)
-![docker compose ps 결과](0_docker compose ps 결과.png)
+![docker compose ps 결과](0_docker_compose_ps_result.png)
 
 - scale 후 각 웹 컨테이너 호스트명(컨테이너 ID)바뀐 결과
-![web=3 스케일링 브라우저 화면](호스트 변경 1.png)
-![web=3 스케일링 브라우저 화면](호스트 변경 2.png)
+![web=3 스케일링 브라우저 화면](host_change_1.png)
+![web=3 스케일링 브라우저 화면](host_change_2.png)
 
 - down 후 up과 down -v후 up 차이 비교 
 | 구분 | `docker compose down` 후 `up` | `docker compose down -v` 후 `up` |
