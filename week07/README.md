@@ -10,6 +10,7 @@
 ![web=3 스케일링 브라우저 화면](host_change_2.png)
 
 - down 후 up과 down -v후 up 차이 비교 
+
 | 구분 | `docker compose down` 후 `up` | `docker compose down -v` 후 `up` |
 | :--- | :--- | :--- |
 | **Volume(볼륨) 삭제 여부** | 데이터 볼륨 유지 | 데이터 볼륨까지 **완전 삭제** |
