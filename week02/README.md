@@ -47,8 +47,7 @@
 - git log #로그 내역 확인 
 
 - 브랜치 만들기 
-- git switch -c <브랜치 이름> # 브랜치 만들기 
-- git switch branch # 브랜치 만들기 
-- git branch #현재 브랜치 확인 
-- git push # 원격 깃허브에 
-업로드
+    - git switch -c <브랜치 이름> # 브랜치 만들기 
+    - git switch branch # 브랜치 만들기 
+    - git branch #현재 브랜치 확인 
+    - git push # 원격 깃허브에 업로드
