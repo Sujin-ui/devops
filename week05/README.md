@@ -88,14 +88,18 @@ docker pl     docker push
  [내 컴퓨터: 내가 만든 이미지]
    └ ── docker run ──▶ [컨테이너] 
 
-
 ```
+
 ### Registry 
+``` 
 docker run -d -p 8080:80 --name web nginx 
 	# -d (detached) : 백그라운드 실행 
 	# -p (publish)  : 포트연결 
 	# --name	: 컨테이너 이름 지정 
-	# nginx  	: 이미지 이름
+	# nginx  	: 이미지 이름 
+```
+
+```
 docker ps     # 컨테이너 출력 
 docker images # 이미지 확인 
 docker logs <컨테이너 이름>    # 로그 보기 
@@ -103,8 +107,11 @@ docker stop <컨테이너 이름>    # 컨테이너 정지하기
 docker start <컨테이너 이름>   # 컨테이너 시작
 docker restart <컨테이너 이름> # 컨테이너 재시작
 docker rm -f <컨테이너 이름>   # 실행중이여도 삭제 
+```
+
+``` 
 docker exec -it <컨테이너 이름> bash 
 	# -it (interactive+tty)
 	# bash 컨테이너 안에 실행할 명령 (셸)
 
-
+```
