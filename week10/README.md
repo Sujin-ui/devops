@@ -77,6 +77,14 @@
     ```
 
 ### git revert 
+- 구조 
+guestbook/
+├── app.py, Dockerfile, compose.yaml ...
+└── k8s/
+├── deployment.yaml 
+└── service.yaml 
+
+## git revert 
 - 과거 커밋 기록을 삭제 하지 않고 변경사항을 취소 
 ```
     A -> B -> C (HEAD)
@@ -94,7 +102,8 @@
 ```
     - B 와 C는 남아있고 B의 변경사항을 되돌리는 D가 추가
 
-### git reset 
+
+## git reset 
 - 커밋 기록의 기준점을 과거로 되돌리는것 
 ```
 git reset --soft
